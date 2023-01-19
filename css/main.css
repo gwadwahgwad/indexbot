@@ -1,0 +1,46 @@
+.banner-image {
+  background-image: url('../image/background.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  width:100%;
+  min-width:100%;
+  }
+.navbar-custom {
+  background-color: #1a1a1a;
+  transition: 200ms;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #6c757d;
+  
+}
+.yellow_text {
+  color: #fed000;
+}
+.thai-lang {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+.bg {
+  background-color: #1a1a1a;
+}
+::-webkit-scrollbar {
+width: 10px;
+}
+
+::-webkit-scrollbar-track {
+background: #1a1a1a; 
+}
+
+::-webkit-scrollbar-thumb {
+background: #fed000; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #fed000; 
+}
+
+
+* {
+cursor: url(../image/cursor.cur), auto;
+}
